@@ -1,0 +1,8 @@
+.spin[class], .image {
+    margin-top: 15px;
+}
+
+.image {
+    max-width: 450px;
+    max-height: 350px;
+}

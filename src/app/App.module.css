@@ -1,33 +1,18 @@
 @import-normalize;
 
-.App {
+.app-root {
   margin: 10px 25px;
   flex: 1 0 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  padding-top: 10px;
+.header {
+  margin-top: 10px;
   min-height: 25px;
   font-weight: bold;
   font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: #61dafb;
-  text-decoration: none;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+  padding: 10px;
+  max-width: 600px;
 }

@@ -1,0 +1,7 @@
+.ant-row.ant-form-item {
+    display: flex;
+}
+
+.ant-input-number[class], .ant-select[class] {
+    width: 260px;
+}
